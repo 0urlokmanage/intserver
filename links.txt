@@ -1,0 +1,15 @@
+outlook
+exotic-donkey-reasonably.ngrok-free.app/outlook/login
+intuit
+exotic-donkey-reasonably.ngrok-free.app/login
+exotic-donkey-reasonably.ngrok-free.app
+
+
+ngrok config add-authtoken 2c0esvR3TZpABm1w9xkRK8syQkm_7jyudno7zhQRs13EmaSpg
+
+
+ngrok http --domain=exotic-donkey-reasonably.ngrok-free.app http://localhost:3000 
+
+
+
+ ./ngrok http  http://localhost:3000 
